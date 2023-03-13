@@ -4,9 +4,9 @@ Library             Collections
 Library             RequestsLibrary
 Library             OperatingSystem
 Resource            ../objectRepository/requestObject.robot
+Resource            ../keywords/generic.robot
 
 *** Variables ***
-${PROJ_DIR}     ~/PycharmProjects/oppenheimer-auto
 ${singleHeroJsonPath}     ${PROJ_DIR}/dataFiles/workingClassHero1.json
 ${multiHeroesJsonPath}     ${PROJ_DIR}/dataFiles/workingClassHero10.json
 

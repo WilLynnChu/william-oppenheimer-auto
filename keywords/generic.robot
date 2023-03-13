@@ -8,7 +8,7 @@ Library         Collections
 Library         ../customLibraries/CommonUtils.py
 
 *** Variables ***
-${PROJ_DIR}     ~/PycharmProjects/oppenheimer-auto
+${PROJ_DIR}     .
 ${execution_profile_chrome_name}    Chrome
 ${execution_profile_chrome_path}    executable_path=${PROJ_DIR}/drivers/chromedriver/chromedriver
 

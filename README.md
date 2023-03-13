@@ -113,7 +113,21 @@ robot -d reports tests/assessmentSuite.robot
      - It should be applying normal rounding rule which is round half up. And also round to the nearest whole number when there is two or less decimal point
 ### Priority: P0
     
-## 4. No role was implemented in the system
+## 4. Dispense Tax Relief Amount For Working Class Heroes        
+### Pre-requisite:
+     - Insert working class hero record to database
+### Step to replicate(STR):
+     1. Click on Dispense Now button
+     2. Check the current number of working class hero and tax relief amount
+### Actual behavior:
+     - After dispense the current number of working class hero and tax relief amount remain the same
+     - Able to click on Dispense Now button repeatedly
+#####     https://ibb.co/wyLkxBj
+### Expected behavior:
+     - The current number of working class hero and tax relief amount should be cleared
+### Priority: P0
+    
+## 5. No role was implemented in the system
 ### Pre-requisite:
      - N/A
 ### Step to replicate(STR):
@@ -122,9 +136,9 @@ robot -d reports tests/assessmentSuite.robot
      - Everyone can use all function or features of the system regardless of the role
 ### Expected behavior:
      - Everyone should have function or features limited to their own role
-### Priority: P0
+### Priority: P1
 
-## 5. API Documentation is not informative
+## 6. API Documentation is not informative
 ### Pre-requisite:
      - N/A
 ### Step to replicate(STR):
