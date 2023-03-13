@@ -113,7 +113,7 @@ robot -d reports tests/assessmentSuite.robot
      - It should be applying normal rounding rule which is round half up. And also round to the nearest whole number when there is two or less decimal point
 ### Priority: P0
     
-## 4. Dispense Tax Relief Amount For Working Class Heroes        
+## 4. User should not be able to repeatedly dispense tax relief
 ### Pre-requisite:
      - Insert working class hero record to database
 ### Step to replicate(STR):
